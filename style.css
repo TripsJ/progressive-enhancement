@@ -1,0 +1,24 @@
+/*
+Style the paragraphs: use a Serif font, increase the spacing a little, use a basic size that makes it easy to read. Give the text a dark color, but not black.
+Style links so that they are easily readable.
+Style the "hover" and "visited" state of the links.
+*/
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color:darkblue;
+    word-spacing: 3px;
+
+}
+
+a{
+    color: darkgreen;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+a:visited{
+    color:darkgray;
+}
